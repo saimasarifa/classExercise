@@ -1,7 +1,8 @@
+
 <?php
-/**
- * Created by PhpStorm.
- * User: lict
- * Date: 12/11/14
- * Time: 4:58 PM
- */ 
+if (function_exists('imap_open')) {
+    echo "IMAP functions are available.<br />\n";
+} else {
+    echo "IMAP functions are not available.<br />\n";
+}
+?>
