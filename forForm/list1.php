@@ -36,7 +36,7 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['last_name']?></td>
             <td><?php echo $row['phone_number']?></td>
             <td>
-                <a href="view1.php?id=<?php echo $row['id']?>">View/Show</a> |
+                <a href="view1.php?ID=<?php echo $row['ID']?>">View/Show</a> |
                 <a href="#">Edit</a> |
 
                 <a href="delete1.php?ID=<?php echo $row['ID']?>">Delete</a> |
