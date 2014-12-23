@@ -36,7 +36,11 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['last_name']?></td>
             <td><?php echo $row['phone_number']?></td>
             <td>
+<<<<<<< HEAD
                 <a href="view1.php?id=<?php echo $row['id']?>">View/Show</a> |
+=======
+                <a href="view1.php?ID=<?php echo $row['ID']?>">View/Show</a> |
+>>>>>>> 3d79987354c924685bf422f6e60814a380760b85
                 <a href="#">Edit</a> |
 
                 <a href="delete1.php?ID=<?php echo $row['ID']?>">Delete</a> |
@@ -49,4 +53,7 @@ $result = mysqli_query($link, $query);
     ?>
 
 </table>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3d79987354c924685bf422f6e60814a380760b85
